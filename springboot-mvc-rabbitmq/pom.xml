@@ -32,7 +32,7 @@
 				<version>Greenwich.RELEASE</version>
 				<type>pom</type>
 				<scope>import</scope>
-			</dependency>
+			</dependency> 
 		</dependencies>
 	</dependencyManagement>	
 	<modules>

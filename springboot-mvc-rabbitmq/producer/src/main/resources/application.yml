@@ -1,0 +1,17 @@
+server:
+  port: ${PORT:7777}
+  
+spring:  
+  application:
+    name: producer
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    
+logging:
+  level:
+    root: ERROR
+    org.springframework: INFO
+    com.roopy: DEBUG
